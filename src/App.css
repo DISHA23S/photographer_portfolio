@@ -1,0 +1,9 @@
+.app {
+  min-height: 100vh;
+  background-color: #131316;
+  color: #fff;
+  /* Add padding top to offset the fixed header height */
+  padding-top: 100px; /* Adjust based on your header height */
+  box-sizing: border-box;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
