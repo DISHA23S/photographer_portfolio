@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Secret keys
+src/components/Admin/serviceAccountKey.json
