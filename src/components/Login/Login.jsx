@@ -152,6 +152,11 @@ const Login = () => {
               Don't have an account? <Link to="/signup">Register</Link>
             </p>
           </div>
+          <div style={{ textAlign: 'center', marginTop: 16 }}>
+            <Link to="/admin-login" style={{ color: '#fff', fontWeight: 'bold' }}>
+              Login as Admin
+            </Link>
+          </div>
         </form>
       </div>
     </div>

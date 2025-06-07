@@ -26,22 +26,24 @@ const HomePage = ({ setActiveTab = () => {} }) => {
         className="info-section"
         aria-label="Introduction to photographer"
       >
-        <div className="info-content title-row">
+        <div className="info-content">
           {/* Left Side: Photographer's Name */}
           <div className="info-text">
-            <p className="info-subtitle">Photography by</p>
-            <h1 className="info-title">Your Name</h1>
+            <p className="info-subtitle">PHOTOGRAPHY BY</p>
+            <h1 className="info-title">Name</h1>
           </div>
 
-          {/* Right Side: CTA */}
-          <div className="cta-wrapper">
-            <div className="cta-top-row">
-              <span className="cta-text">Let's</span>
-              <Link to="/contact" className="cta-button" aria-label="Contact">
-                <span className="arrow-icon">↗</span>
-              </Link>
-            </div>
-            <span className="cta-text">Work Together</span>
+          {/* Right Side: CTA Button */}
+          <div className="cta-group">
+            <p className="cta-heading">LET’S</p>
+            <Link
+              to="/contact"
+              className="cta-button"
+              aria-label="Go to Contact Page"
+            >
+              <span className="cta-button-text">WORK TOGETHER</span>
+              <span className="cta-button-icon">↗</span>
+            </Link>
           </div>
         </div>
       </section>
@@ -60,7 +62,7 @@ const HomePage = ({ setActiveTab = () => {} }) => {
             className="section-icon"
             alt="Photography icon"
           />
-          <h2 className="photography-title">My Work:</h2>
+          <h2 className="photography-title">My Work:-</h2>
         </header>
 
         {/* Services List */}

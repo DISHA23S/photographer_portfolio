@@ -5,7 +5,7 @@ admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
 });
 
-const userEmail = ""; // the user's email to make admin
+const userEmail = "sdisha3574@gmail.com"; // the user's email to make admin
 
 async function makeAdmin() {
   try {
